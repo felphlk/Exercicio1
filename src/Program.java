@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class a {
+public class Program {
     public static void main(String[] args) {
         System.out.print("Multiplicando: ");
         Scanner a= new Scanner(System.in);
