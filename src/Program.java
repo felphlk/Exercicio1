@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Program {
+public class a {
     public static void main(String[] args) {
         System.out.print("Multiplicando: ");
         Scanner a= new Scanner(System.in);
@@ -22,7 +22,6 @@ public class Program {
                 System.out.println("Inicio não pode ser maior ou ter o mesmo valor que o fim ");
             }
             else {
-                System.out.println(inicio);
                 for (int i = 0; i < (fim - inicio) + 1; i++) {
                     System.out.println(multiplicando + " x " + (inicio + i) + " = " + multiplicando * (inicio + i));
                 }
